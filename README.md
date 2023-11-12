@@ -4,7 +4,7 @@ In this project we create our own custom printf that mimic the main printf.
 
 
 
-####We completed the project using:
+#### We completed the project using:
  
 * c programming langauge and
 
@@ -12,16 +12,16 @@ In this project we create our own custom printf that mimic the main printf.
 
 
 
-####Collaborators
+#### Collaborators
 
 * UDUAK-OBONG UWAH
 
-* Mikey Kanu
+* MIKEY KANU
 
 
 
 
-####Authorized functions and macros
+#### Authorized functions and macros
 
 * write (man 2 write)
 
@@ -40,7 +40,7 @@ In this project we create our own custom printf that mimic the main printf.
 
 
 
-####Compilation
+#### Compilation
 
 * Your code will be compiled this way:
 
@@ -49,7 +49,7 @@ $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
 
 
 
-####Requirements
+#### Requirements
 
 * Allowed editors: vi, vim, emacs
 
