@@ -1,18 +1,19 @@
 #include "main.h"
 
 /**
- * print_char - prints character to the stout.
+ * char_print - prints character to the stout.
  * @c: character to check.
- * Return: char_to_print.
+ * Return: num_of_char.
  *
  */
 
-int print_char(char c)
+int char_print(char c)
 {
-	int char_to_print = 0;
+	int num_of_char = 0;
 
-	write(1, &c, 1);
-	char_to_print++;
-	return (char_to_print);
+	_putchar(c);
+	num_of_char++;
+
+	return (num_of_char);
 
 }
