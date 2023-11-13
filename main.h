@@ -8,10 +8,10 @@
 
 int _putchar(char c);
 int _printf(const char *format, ...);
-int printf_support(va_list list_of_args, const char format);
+int _supporter(const char format);
 int char_print(char c);
 int string_print(char *str);
 int print_cent(char c);
-int print_int(int n);
+int print_int(int i);
 
 #endif

@@ -1,33 +1,32 @@
 #include "main.h"
 
 /**
- *_strings - prints strings.
- *@str: string.
- *Return: lenght.
+ * string_print - function that prin string.
+ * @str: string pointer.
+ * Return: The length of the string.
  */
 
-int _strings(char *str)
+int string_print(char *str)
 {
+	int num_of_char = 0;
 	int str_len = 0;
-	int char_to_print = 0;
 	char *nul;
 
 	if (str == NULL)
 	{
-		nul = "(null)";
+		nul = ("(null)")
 		while (nul[str_len] != '\0')
 		{
-			write(1, &nul[str_len], 1);
+			_putchar(nul[str_len]);
 			str_len++;
-			char_to_print++;
 		}
 		return (6);
 	}
 	while (str[str_len] != '\0')
 	{
-		write(1, &str[str_len], 1);
+		_putchar(str[str_len])
 		str_len++;
-		char_to_print++;
+		num_of_char++;
 	}
-	return (char_to_print);
+	return (num_of_char);
 }
