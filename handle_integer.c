@@ -36,7 +36,7 @@ int print_int(int i)
 		i = i / 10;
 	}
 	ptr[num_of_char] = '\0';
-	if (num)
+	if (value)
 	{
 		write(1, "-", 1);
 	}
