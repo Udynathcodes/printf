@@ -11,7 +11,7 @@ int print_int(int i)
 
 	if (i == 0)
 	{
-		write(1, '0', 1);
+		write(1, "0", 1);
 		return (1);
 	}
 	if (i < 0)
@@ -38,7 +38,7 @@ int print_int(int i)
 	ptr[num_of_char] = '\0';
 	if (value)
 	{
-		write(1, '-', 1);
+		write(1, "-", 1);
 	}
 	for (a = 0; a < num_of_char; a++)
 	{
