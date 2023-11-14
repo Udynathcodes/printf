@@ -17,14 +17,15 @@ int string_print(char *str)
 		nul = ("(null)")
 		while (nul[str_len] != '\0')
 		{
-			_putchar(nul[str_len]);
+			write(1, &nul[str_len, 1]);
 			str_len++;
+			num_of_char++;
 		}
 		return (6);
 	}
 	while (str[str_len] != '\0')
 	{
-		_putchar(str[str_len])
+		write(1, &str[str_len, 1])
 		str_len++;
 		num_of_char++;
 	}

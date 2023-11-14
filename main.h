@@ -5,8 +5,8 @@
 #include <string.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <stdio.h>
 
-int _putchar(char c);
 int _printf(const char *format, ...);
 int _supporter(const char format);
 int char_print(char c);

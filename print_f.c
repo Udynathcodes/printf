@@ -33,7 +33,7 @@ int _printf(const char *format, ...)
 		}
 		else
 		{
-			_putchar(format[a]);
+			write(1, &format[a], 1);
 			num_of_char++;
 		}
 	}

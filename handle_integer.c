@@ -11,7 +11,7 @@ int integer(int i)
 
 	if (i == 0)
 	{
-		_putchar('0')
+		write(1, "0", 1);
 		return (1);
 	}
 	if (i < 0)
@@ -38,11 +38,11 @@ int integer(int i)
 	ptr[num_of_char] = '\0';
 	if (num)
 	{
-		_putchar('-');
+		write(1, "-", 1);
 	}
 	for (a = 0; a < num_of_char; a++)
 	{
-		_putchar(ptr[a]);
+		write(1, &ptr[a], 1);
 	}
 	free(ptr);
 	return (num_of_char + value);

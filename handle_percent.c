@@ -10,7 +10,7 @@ int print_cent(char c)
 {
 	int num_of_char = 0;
 
-	_putchar(c);
+	write(1, &c, 1);
 	num_of_char++;
 
 	return (num_of_char);
