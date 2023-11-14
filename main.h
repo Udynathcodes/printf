@@ -8,7 +8,7 @@
 #include <stdio.h>
 
 int _printf(const char *format, ...);
-int _supporter(const char format);
+int _supporter(va_list list_of_args, const char format);
 int char_print(char c);
 int string_print(char *str);
 int print_cent(char c);

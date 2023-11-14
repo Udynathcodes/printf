@@ -14,10 +14,10 @@ int string_print(char *str)
 
 	if (str == NULL)
 	{
-		nul = ("(null)")
+		nul = ("(null)");
 		while (nul[str_len] != '\0')
 		{
-			write(1, &nul[str_len, 1]);
+			write(1, &nul[str_len], 1);
 			str_len++;
 			num_of_char++;
 		}
@@ -25,7 +25,7 @@ int string_print(char *str)
 	}
 	while (str[str_len] != '\0')
 	{
-		write(1, &str[str_len, 1])
+		write(1, &str[str_len], 1);
 		str_len++;
 		num_of_char++;
 	}

@@ -3,13 +3,13 @@
 /**
  * _supporter - assitance printf.
  * @format: format.
+ * @list_of_args: pointer to list.
  * Return: num_of_char.
  */
 
-int _supporter(const char format)
+int _supporter(va_list list_of_args, const char format)
 {
 	int num_of_char = 0;
-	va_list list_of_args;
 
 	if (format == 'i')
 	{
