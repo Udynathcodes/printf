@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * integer - prints an integer.
+ * print_int - prints an integer.
  * @i: The integer.
  * Return: num_of_char
  */
-int integer(int i)
+int print_int(int i)
 {
 	int num, num_of_char = 0, value = 0, a = 0;
 	char *ptr;
